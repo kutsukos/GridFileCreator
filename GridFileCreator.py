@@ -9,7 +9,7 @@ parser.add_option("-s", "--start", dest="start",
                   help="the starting position of this range. It is included in the file")
 parser.add_option("-e", "--end", dest="end",
                   help="the ending position of this range. It is included in the file")
-parser.add_option("-n", "--num", dest="num",
+parser.add_option("-n", "--num", dest="num",default=0,
                   help="the number of positions you want in this range")
 parser.add_option("-d", "--dist", dest="dist",
                   help="alternative to num, dist is the distance between the points. If -dist is used, -num will be ignored", default=0)
@@ -24,6 +24,8 @@ userdist=int(options.dist)
 
 diff=rangeEnd-rangeStart+2
 if(diff<=0):
+    print "Error! Please check your input"
+if(userdist == 0 and numOfPoints==0):
     print "Error! Please check your input"
 else:
     if(userdist != 0):
