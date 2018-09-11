@@ -1,6 +1,6 @@
 from optparse import OptionParser
 
-parser = OptionParser( description="GridFile Creator v0.1.kutsukos This tool is creating a tab-delimited file, that contains positions inside a specified range."
+parser = OptionParser( description="GridFile Creator v0.2.kutsukos This tool is creating a tab-delimited file, that contains positions inside a specified range."
                                    "It can be used as input in some programs like SweeD or OmegaPlus."
                                    "\nThe format of this file is \"chr <tab> pos\". It is like a bed file, but it is not defining areas of interest, but points, inside an area." )
 parser.add_option("-c", "--chr", dest="chr",
