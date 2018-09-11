@@ -30,6 +30,7 @@ if(userdist == 0 and numOfPoints==0):
 else:
     if(userdist != 0):
         step=userdist
+        numOfPoints=(diff/step) +1
     else:
         step = (diff / (numOfPoints - 1));  upoloipo=diff%(numOfPoints - 1)
         if (upoloipo > 5):

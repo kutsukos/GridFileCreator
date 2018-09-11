@@ -30,10 +30,12 @@ chr1	220
 
 
 #VERSION CHANGELOG
--0.1 - CURRENT
+-0.1
 +dist argument inserted
 +help
 
+-0.2 - CURRENT
++bugs with arguments solved
 
 #Contact
 Contact me at skarisg@gmail.com for reporting bugs or anything else! :)
