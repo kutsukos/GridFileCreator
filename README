@@ -1,7 +1,9 @@
 Usage: python createPointsInARangeDefinedinCLI.py -h
 
+ <img src="https://img.shields.io/badge/python-2.7-informational.svg"
+            alt="Total alerts"/>
 
-#ABOUT GridFile Creator
+#ABOUT GridFile Creator 
 This tool is creating a tab-delimited file, that contains positions inside a specified range.
 It can be used as input in some programs like SweeD or OmegaPlus.
 The format of this file is "chr <tab> pos". The following example, will make it clear!
