@@ -1,6 +1,6 @@
 Usage: python createPointsInARangeDefinedinCLI.py -h
 
-![dependencies](https://img.shields.io/badge/python-2.7-informational.svg)
+[dependencies](https://img.shields.io/badge/python-2.7-informational.svg)
 
 #ABOUT GridFile Creator 
 This tool is creating a tab-delimited file, that contains positions inside a specified range.
