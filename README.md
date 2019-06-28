@@ -1,26 +1,23 @@
 # GridFile Creator
 ![dependencies](https://img.shields.io/badge/python-2.7-informational.svg)
 
-## Usage
-Usage: python createPointsInARangeDefinedinCLI.py -h
+### Usage
+```console
+$ python createPointsInARangeDefinedinCLI.py -h
+```
 
 
 
-## ABOUT GridFile Creator 
+### ABOUT GridFile Creator 
+This tool is creating a **tab-delimited file**, that contains points inside a specified range.
 
-This tool is creating a tab-delimited file, that contains positions inside a specified range.
+The format of this file is "chr /tab pos". The following example, will make it clear!
 
 It can be used as input in some programs like SweeD or OmegaPlus.
 
-The format of this file is "chr <tab> pos". The following example, will make it clear!
 
-It is like a bed file, but it is not defining areas of interest, but points, inside an area.
-
-
-
-## EXAMPLE
------------------------------
-```bash
+### EXAMPLE
+```console
 $ python GridFileCreator.py -c 1 -s 100 -e 220 -n 7
 
 [Creating points completed]
@@ -40,16 +37,13 @@ chr1	200
 chr1	220
 ```
 
-
-
-## VERSION CHANGELOG
-##### -0.1
-+dist argument inserted
-
-+help
-
-##### -0.2 - CURRENT
-+bugs with arguments solved
+### VERSION CHANGELOG
+<pre>
+-0.1
+  + dist and help argument inserted
+-0.2 - CURRENT
+  + bugs with arguments solved
+</pre>
 
 ## Contact
-Contact me at skarisg@gmail.com for reporting bugs or anything else! :)
+Contact me at skarisg@gmail.com or ioannis.kutsukos@gmail.com for reporting bugs or anything else! :)
