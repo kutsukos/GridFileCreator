@@ -44,7 +44,7 @@ chr1    180
 chr1    200
 chr1    220
 
-cat points.2.100.220.7.out
+$ cat points.2.100.220.7.out
 chr2    100
 chr2    115
 chr2    130
