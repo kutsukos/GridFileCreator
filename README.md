@@ -3,7 +3,7 @@
 
 ### Usage
 ```console
-$ python GridFileCreator.py
+$ python3 GridFileCreator.py
 ```
 
 ### Inputs
@@ -29,7 +29,7 @@ It can be used as input in some programs like SweeD or OmegaPlus.
 if we use the data.dat file, included in this repo and we execute the script, we expect 2 files. One file for chromosome 1 and one file for chromosome 2.
 
 ```console
-$ python GridFileCreator.py
+$ python3 GridFileCreator.py
 Grid File Creator
 Grid File Creator: Reading input file
 Grid File Creator: Writing on output file/s
