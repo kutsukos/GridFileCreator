@@ -9,6 +9,7 @@ $ python GridFileCreator.py
 ### Inputs
 A file called data.dat
 Input file format:   <chromosome_number> <starting_point> <ending_point> <number_of_points_in_between>
+
 Input file format example:
 ```console
 1 100 220 7
